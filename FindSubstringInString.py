@@ -1,3 +1,6 @@
+#  user enters a string and a substring. 
+# program prints the number of times that the substring occurs in the given string. String traversal takes place from left to right.
+
 def count_substring(string, sub_string):
     count = 0
     substring_length = len(sub_string)
